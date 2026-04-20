@@ -1,0 +1,151 @@
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0b0f1a;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 280px;
+  padding: 20px;
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255,255,255,0.08);
+  box-shadow: inset -1px 0 0 rgba(255,255,255,0.05);
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #00ffcc;
+  border-radius: 10px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(8px);
+}
+
+.btn:hover {
+  background: rgba(0,255,204,0.15);
+  border-color: #00ffcc;
+  box-shadow: 0 0 8px #00ffcc;
+  transform: translateY(-2px);
+}
+
+.btn.active {
+  background: linear-gradient(45deg, #5e0988, #9e27ff);
+  box-shadow: 0 0 10px #b403f5;
+}
+
+/* Missile button text */
+.missile span {
+  float: right;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* ===== INFO CARD ===== */
+.info-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  box-shadow: 0 0 12px rgba(0,255,204,0.2);
+}
+
+/* ===== MAP ===== */
+.map-container {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+/* ===== TARGET LIST ===== */
+.target-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(73, 247, 238, 0.08);
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.target-item:hover {
+  color: #ebf4f2;
+}
+
+.target-item span:last-child {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+/* ===== HACK CORNER ===== */
+.hack-corner {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #00ffcc;
+  font-family: monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 14px;
+  border: 1px solid #00ffcc;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 12px #00ffcc;
+  z-index: 9999;
+  animation: flicker 2s infinite;
+}
+
+/* Cursor blink */
+.cursor {
+  animation: blink 1s infinite;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* ===== GLOBAL SMOOTHNESS ===== */
+* {
+  transition: background 0.2s, color 0.2s;
+}

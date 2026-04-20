@@ -1,0 +1,122 @@
+[
+  {
+    "name": "India",
+    "capital": { "name": "New Delhi", "lat": 28.6139, "lng": 77.2090 },
+    "missiles": [
+      { "name": "Prithvi-II", "range": 350, "speed": 5, "type": "SRBM" },
+      { "name": "BrahMos", "range": 500, "speed": 3, "type": "Cruise" },
+      { "name": "Agni-I", "range": 700, "speed": 10, "type": "SRBM" },
+      { "name": "Agni-II", "range": 2000, "speed": 12, "type": "MRBM" },
+      { "name": "Agni-III", "range": 3000, "speed": 15, "type": "IRBM" },
+      { "name": "Agni-IV", "range": 4000, "speed": 18, "type": "IRBM" },
+      { "name": "Agni-V", "range": 5000, "speed": 24, "type": "ICBM" }
+    ]
+  },
+
+  {
+    "name": "USA",
+    "capital": { "name": "Washington DC", "lat": 38.9072, "lng": -77.0369 },
+    "missiles": [
+      { "name": "Tomahawk", "range": 1600, "speed": 0.8, "type": "Cruise" },
+      { "name": "Pershing II", "range": 1800, "speed": 10, "type": "MRBM" },
+      { "name": "Minuteman III", "range": 13000, "speed": 25, "type": "ICBM" },
+      { "name": "Trident II", "range": 12000, "speed": 24, "type": "SLBM" }
+    ]
+  },
+
+  {
+    "name": "Russia",
+    "capital": { "name": "Moscow", "lat": 55.7558, "lng": 37.6173 },
+    "missiles": [
+      { "name": "Iskander", "range": 500, "speed": 6, "type": "SRBM" },
+      { "name": "Kalibr", "range": 2500, "speed": 0.8, "type": "Cruise" },
+      { "name": "Topol-M", "range": 11000, "speed": 25, "type": "ICBM" },
+      { "name": "RS-28 Sarmat", "range": 18000, "speed": 27, "type": "ICBM" }
+    ]
+  },
+
+  {
+    "name": "China",
+    "capital": { "name": "Beijing", "lat": 39.9042, "lng": 116.4074 },
+    "missiles": [
+      { "name": "DF-11", "range": 300, "speed": 6, "type": "SRBM" },
+      { "name": "DF-21", "range": 2150, "speed": 12, "type": "MRBM" },
+      { "name": "DF-26", "range": 4000, "speed": 18, "type": "IRBM" },
+      { "name": "DF-41", "range": 12000, "speed": 25, "type": "ICBM" }
+    ]
+  },
+
+  {
+    "name": "Pakistan",
+    "capital": { "name": "Islamabad", "lat": 33.6844, "lng": 73.0479 },
+    "missiles": [
+      { "name": "Abdali", "range": 180, "speed": 5, "type": "SRBM" },
+      { "name": "Ghauri", "range": 1500, "speed": 10, "type": "MRBM" },
+      { "name": "Shaheen-II", "range": 2000, "speed": 12, "type": "MRBM" }
+    ]
+  },
+
+  {
+    "name": "France",
+    "capital": { "name": "Paris", "lat": 48.8566, "lng": 2.3522 },
+    "missiles": [
+      { "name": "ASMP-A", "range": 500, "speed": 3, "type": "Cruise" },
+      { "name": "M51", "range": 8000, "speed": 20, "type": "SLBM" }
+    ]
+  },
+
+  {
+    "name": "UK",
+    "capital": { "name": "London", "lat": 51.5074, "lng": -0.1278 },
+    "missiles": [
+      { "name": "Storm Shadow", "range": 560, "speed": 0.8, "type": "Cruise" },
+      { "name": "Trident II", "range": 12000, "speed": 24, "type": "SLBM" }
+    ]
+  },
+
+  {
+    "name": "North Korea",
+    "capital": { "name": "Pyongyang", "lat": 39.0392, "lng": 125.7625 },
+    "missiles": [
+      { "name": "Scud", "range": 300, "speed": 5, "type": "SRBM" },
+      { "name": "Nodong", "range": 1300, "speed": 8, "type": "MRBM" },
+      { "name": "Hwasong-15", "range": 13000, "speed": 20, "type": "ICBM" }
+    ]
+  },
+
+  {
+    "name": "Iran",
+    "capital": { "name": "Tehran", "lat": 35.6892, "lng": 51.3890 },
+    "missiles": [
+      { "name": "Fateh-110", "range": 300, "speed": 6, "type": "SRBM" },
+      { "name": "Shahab-3", "range": 2000, "speed": 10, "type": "MRBM" }
+    ]
+  },
+
+  {
+    "name": "Israel",
+    "capital": { "name": "Jerusalem", "lat": 31.7683, "lng": 35.2137 },
+    "missiles": [
+      { "name": "LORA", "range": 400, "speed": 6, "type": "SRBM" },
+      { "name": "Jericho-III", "range": 6500, "speed": 20, "type": "ICBM" }
+    ]
+  },
+
+  {
+    "name": "Germany",
+    "capital": { "name": "Berlin", "lat": 52.52, "lng": 13.405 },
+    "missiles": [
+      { "name": "EuroStrike-1", "range": 800, "speed": 8, "type": "SRBM" },
+      { "name": "EuroStrike-2", "range": 2000, "speed": 10, "type": "MRBM" }
+    ]
+  },
+
+  {
+    "name": "Japan",
+    "capital": { "name": "Tokyo", "lat": 35.6762, "lng": 139.6503 },
+    "missiles": [
+      { "name": "Type-12", "range": 1000, "speed": 8, "type": "Defense" },
+      { "name": "Hyper Velocity Glide", "range": 3000, "speed": 15, "type": "IRBM" }
+    ]
+  }
+]
