@@ -35,7 +35,7 @@ function App() {
   const [selectedMissile, setSelectedMissile] = useState(null);
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/countries")
+    axios.get("https://missile-simulation-system.onrender.com/countries")
       .then(res => setCountries(res.data))
       .catch(err => console.error(err));
   }, []);
@@ -62,7 +62,7 @@ function App() {
       const firstMissile = c.missiles[0];
 
       const res = await fetch(
-        `http://127.0.0.1:8000/targets/${c.name}/${firstMissile.name}`
+        `https://missile-simulation-system.onrender.com/targets/${c.name}/${firstMissile.name}`
       );
       const data = await res.json();
 
@@ -70,7 +70,7 @@ function App() {
       setSelectedMissile(best);
 
       const res2 = await fetch(
-        `http://127.0.0.1:8000/targets/${c.name}/${best.name}`
+        `https://missile-simulation-system.onrender.com/targets/${c.name}/${best.name}`
       );
       const finalTargets = await res2.json();
 
@@ -88,7 +88,7 @@ function App() {
       setSelectedMissile(m);
 
       const res = await fetch(
-        `http://127.0.0.1:8000/targets/${selected.name}/${m.name}`
+        `https://missile-simulation-system.onrender.com/targets/${selected.name}/${m.name}`
       );
       const data = await res.json();
 
